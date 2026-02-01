@@ -43,7 +43,7 @@ function Contact() {
           onChange={handleChange}
           style={{ display: 'block', margin: '10px 0' }}
         />
-        <button type="submit">Send Message</button>
+        <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#3498db', color: '#fff', border: 'none', cursor: 'pointer' }}>Send Message</button>
       </form>
     </div>
   );
