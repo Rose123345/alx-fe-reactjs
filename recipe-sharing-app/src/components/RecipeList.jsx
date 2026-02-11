@@ -5,12 +5,12 @@ const RecipeList = () => {
 
   return (
     <div>
-      <h3>Recipe List</h3>
-      <ul>
-        {recipes.map((recipe, index) => (
-          <li key={index}>{recipe.title}</li>
-        ))}
-      </ul>
+      {recipes.map((recipe) => (
+        <div key={recipe.id}>
+          <h3>{recipe.title}</h3>
+          <p>{recipe.description}</p>
+        </div>
+      ))}
     </div>
   );
 };
