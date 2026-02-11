@@ -4,6 +4,7 @@ function Navbar() {
   return (
     <nav style={{
       padding: '15px 20px',
+      justifyContent: 'center',
       backgroundColor: '#2c3e50',
       display: 'flex',
       gap: '30px',
@@ -49,5 +50,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
 export default Navbar;
