@@ -15,6 +15,14 @@ const HomePage = () => {
         <div className="min-h-screen bg-gray-100 py-8">
             <div className="container mx-auto px-4">
                 <h1 className="text-3xl font-bold mb-8 text-center">Recipe Sharing Platform</h1>
+                <div className="flex justify-center mb-8">
+                    <Link
+                        to="/add"
+                        className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors"
+                    >
+                        Add New Recipe
+                    </Link>
+                </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {recipes.map((recipe) => (
                         <div
